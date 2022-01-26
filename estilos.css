@@ -1,0 +1,183 @@
+    /*------ geral ------*/
+    
+    body {
+        font-family: 'Encode Sans', sans-serif;
+    }
+    /*------ barra topo ------*/
+    
+    .logo {
+        height: 80px;
+        width: 100%;
+        margin: 0 auto;
+        border-bottom: 1px solid #ebedef;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo img {
+        height: 40px;
+    }
+    
+    .links {
+        padding-top: 20px;
+        width: 1250px;
+        font-weight: 700;
+        font-size: 19px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    
+    .separador-horizontal {
+        background-color: #ebedef;
+        height: 1px;
+        margin: 20px 0;
+    }
+    
+    .separador-vertical {
+        background-color: #ebedef;
+        width: 1px;
+    }
+    /*------notícias------*/
+    
+    .conteudo {
+        width: 1250px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    /*------notícia geral------*/
+    
+    .noticia img {
+        width: 240px;
+        height: 128px;
+        border-radius: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .noticia strong {
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: block;
+    }
+    
+    .noticia a {
+        font-weight: 400;
+        font-size: 14px;
+        margin: 15px 0;
+        display: block;
+        color: #2f3134;
+    }
+    
+    .noticia small {
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    a:hover {
+        filter: brightness(80%);
+    }
+    /*------noticias principais lado esquerdo------*/
+    
+    .noticias-principais {
+        width: 624px;
+        height: 800px;
+    }
+    
+    .manchetes {
+        margin-bottom: 30px;
+    }
+    
+    .manchetes a {
+        font-size: 18px;
+        font-weight: 500;
+        margin: 10px 0;
+        display: block;
+        color: #2f3134;
+    }
+    
+    .manchetes .manchete {
+        font-size: 52px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: inherit;
+    }
+    
+    .noticias-relevantes {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    .noticias-relevantes img {
+        width: 193px;
+        height: 110px;
+    }
+    
+    .noticias-relevantes .noticia {
+        width: 193px;
+    }
+    /*------noticias lado direito------*/
+    
+    .noticias-esportes {
+        width: 240px;
+        height: 800px;
+    }
+    
+    .noticias-esportes .noticia {
+        margin-bottom: 35px;
+    }
+    
+    .noticias-gshow {
+        width: 240px;
+        height: 800px;
+    }
+    
+    .noticias-gshow .noticia {
+        margin-bottom: 35px;
+    }
+    /*------ cores do site ------*/
+    
+    .g1 {
+        color: #c3170c;
+    }
+    
+    .oglobo {
+        color: #1E4b9b;
+    }
+    
+    .valor {
+        color: #006766;
+    }
+    
+    .ge {
+        color: #07aa47;
+    }
+    
+    .cartola {
+        color: #e3662b;
+    }
+    
+    .globoplay {
+        color: #fb0735;
+    }
+    
+    .dropz {
+        color: #ff75bb;
+    }
+    
+    .gshow {
+        color: #ec7d00;
+    }
+    
+    .quem {
+        color: #323333;
+    }
+    
+    .receitas {
+        color: #a81d83;
+    }
